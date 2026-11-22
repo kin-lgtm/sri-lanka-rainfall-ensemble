@@ -1,0 +1,4 @@
+Model,RMSE (mm),MAE (mm),R2 Score
+Boosting (Gradient Boosting),6.59,3.238,0.5212
+Stacking (RF + GBR + Ridge),6.648,3.23,0.5127
+Bagging (Decision Trees),6.693,3.234,0.5061
