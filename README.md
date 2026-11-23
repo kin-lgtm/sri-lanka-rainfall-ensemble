@@ -38,13 +38,6 @@ Trained on a 25,000-row random sample of the Sri Lanka weather dataset (80/20 sp
 
 Input features: max/min temperature, shortwave radiation, max wind speed, ET0, elevation, month, day of year and city.
 
-## Limitations
-
-- R2 of about 0.5 means this is a demonstration, not a forecasting tool.
-- The test split is random across days, ignoring time order, so scores are likely optimistic.
-- The dashboard approximates day of year as `month * 30 - 15`.
-- Elevation is entered manually and is not linked to the selected city.
-
 ## Retraining
 
 The notebook expects the dataset `SriLanka_Weather_Dataset_V1.csv`, which is not included in this repository. Add it at the path set in the notebook's first code cell, run all cells, and replace the three generated artifacts.
